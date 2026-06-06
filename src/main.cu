@@ -434,7 +434,7 @@ int main() {
     test_block_allocator();
     test_page_table_mapping();
     run_multi_sequence_simulation();
-    run_cow_beam_search_simulation(); // Run the final Copy-on-Write Secret Mission!
+    run_cow_beam_search_simulation();
 
     printf("\n=== All tests passed! ===\n");
     return 0;
